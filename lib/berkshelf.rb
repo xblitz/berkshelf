@@ -238,3 +238,4 @@ require_relative "berkshelf/validator"
 require_relative "berkshelf/ssl_policies"
 
 Berkshelf.logger.level = Logger::WARN
+Berkshelf.mutex_chdir = Mutex.new
