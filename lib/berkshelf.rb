@@ -68,6 +68,7 @@ module Berkshelf
 
     attr_writer :berkshelf_path
     attr_writer :ui
+    attr_accessor :mutex_chdir
 
     # @return [Pathname]
     def root
